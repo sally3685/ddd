@@ -6,6 +6,9 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Link from "next/link";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import { social } from "../../../generated/prisma";
+import FacebookIframe from "./FacebookIframe";
+import YoutubeIframe from "./YoutubeIframe";
+import InstaIframe from "./InstaIframe";
 
 export default function Social({
   t,
@@ -153,15 +156,8 @@ export default function Social({
           </Link>
         </div>
 
-        <Suspense fallback={"loading"}>
-          <iframe
-            src={`https://www.instagram.com/p/${insta.embed}/embed/`}
-            // src="https://www.instagram.com/villadico/?igsh=MjBxeTA2Ynd4M3Y3#"
-            width="280"
-            height="300"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[300px]! lg:w-[280px]!"
-          ></iframe>
+        <Suspense fallback={<p>loading...</p>}>
+          <InstaIframe insta={insta}></InstaIframe>
         </Suspense>
       </div>
       <div
@@ -173,16 +169,9 @@ export default function Social({
             <div className="size-[60px] rounded-full bg-[url(/youtube.png)] bg-contain bg-center"></div>
           </Link>
         </div>
-        <Suspense fallback={"loading"}>
-          <iframe
-            src={`https://www.youtube.com/embed/${you.embed}`}
-            // src="https://www.youtube.com/user/webdevelopete"
-            // src="https://youtube.com/user/youtube?sub_confirmation=1"
-            width="300"
-            height="350"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[350px]! lg:w-[300px]!"
-          ></iframe>
+
+        <Suspense fallback={<p>loading...</p>}>
+          <YoutubeIframe you={you}></YoutubeIframe>
         </Suspense>
       </div>
 
@@ -195,15 +184,8 @@ export default function Social({
             <div className="size-[60px] rounded-full bg-[url(/facebook.png)] bg-contain bg-center"></div>
           </Link>
         </div>
-        <Suspense fallback={"loading"}>
-          {/* <iframe
-            src={`https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F${face.embed}&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId`}
-            width="310"
-            height="360"
-            scrolling="no"
-            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[360px]! lg:w-[310px]!"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share "
-          ></iframe> */}
+        <Suspense fallback={<p>loading...</p>}>
+          <FacebookIframe face={face}></FacebookIframe>
         </Suspense>
       </div>
     </div>
