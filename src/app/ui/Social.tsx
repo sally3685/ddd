@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -152,14 +152,17 @@ export default function Social({
             <div className="size-[60px] rounded-full bg-[url(/insta.png)] bg-contain bg-center"></div>
           </Link>
         </div>
-        <iframe
-          src={`https://www.instagram.com/p/${insta.embed}/embed/`}
-          // src="https://www.instagram.com/villadico/?igsh=MjBxeTA2Ynd4M3Y3#"
-          width="280"
-          height="300"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          className="h-[300px]! w-[300px]! rounded-2xl lg:h-[300px]! lg:w-[280px]!"
-        ></iframe>
+
+        <Suspense fallback={"loading"}>
+          <iframe
+            src={`https://www.instagram.com/p/${insta.embed}/embed/`}
+            // src="https://www.instagram.com/villadico/?igsh=MjBxeTA2Ynd4M3Y3#"
+            width="280"
+            height="300"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[300px]! lg:w-[280px]!"
+          ></iframe>
+        </Suspense>
       </div>
       <div
         ref={youTubeRef}
@@ -170,16 +173,19 @@ export default function Social({
             <div className="size-[60px] rounded-full bg-[url(/youtube.png)] bg-contain bg-center"></div>
           </Link>
         </div>
-        <iframe
-          src={`https://www.youtube.com/embed/${you.embed}`}
-          // src="https://www.youtube.com/user/webdevelopete"
-          // src="https://youtube.com/user/youtube?sub_confirmation=1"
-          width="300"
-          height="350"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          className="h-[300px]! w-[300px]! rounded-2xl lg:h-[350px]! lg:w-[300px]!"
-        ></iframe>
+        <Suspense fallback={"loading"}>
+          <iframe
+            src={`https://www.youtube.com/embed/${you.embed}`}
+            // src="https://www.youtube.com/user/webdevelopete"
+            // src="https://youtube.com/user/youtube?sub_confirmation=1"
+            width="300"
+            height="350"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[350px]! lg:w-[300px]!"
+          ></iframe>
+        </Suspense>
       </div>
+
       <div
         ref={facebookRef}
         className="relative top-0 left-0 scale-[1]! rounded-2xl lg:absolute lg:top-[40%] lg:left-[70%] lg:scale-[0.9]"
@@ -189,14 +195,16 @@ export default function Social({
             <div className="size-[60px] rounded-full bg-[url(/facebook.png)] bg-contain bg-center"></div>
           </Link>
         </div>
-        <iframe
-          src={`https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F${face.embed}&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId`}
-          width="310"
-          height="360"
-          scrolling="no"
-          className="h-[300px]! w-[300px]! rounded-2xl lg:h-[360px]! lg:w-[310px]!"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share "
-        ></iframe>
+        <Suspense fallback={"loading"}>
+          {/* <iframe
+            src={`https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F${face.embed}&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId`}
+            width="310"
+            height="360"
+            scrolling="no"
+            className="h-[300px]! w-[300px]! rounded-2xl lg:h-[360px]! lg:w-[310px]!"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share "
+          ></iframe> */}
+        </Suspense>
       </div>
     </div>
   );
