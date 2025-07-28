@@ -1,0 +1,734 @@
+{
+  "unAuthorized": { "title": "You do not have access permission" },
+  "SignIn": {
+    "title": "Sign In",
+    "stop": "You are already signed in",
+    "question": "Already have an account?",
+    "forgetPasswordLink": "Forget Password ?",
+    "didntVerifyLink": "Didnt verify your email ? click to verify"
+  },
+  "SignUp": {
+    "title": "Sign up",
+    "stop": "You have already created an account",
+    "validationTips": {
+      "name": {
+        "title": "Name Selection Tips",
+        "rules": [
+          "Between 2 to 24 characters",
+          "Always starts with a letter",
+          "Can contain letters, numbers, hyphens (-), and underscores (_)"
+        ]
+      },
+      "email": {
+        "title": "Email Tips",
+        "rules": [
+          "Must contain an @ symbol",
+          "Must contain characters before the @ symbol"
+        ]
+      },
+      "password": {
+        "title": "Password Tips",
+        "rules": [
+          "Between 8 to 24 characters",
+          "Contains at least one letter",
+          "Contains at least one number",
+          "Contains at least one special symbol (!@#$%^&*)"
+        ]
+      }
+    },
+    "question": "Don't have an account?"
+  },
+  "authForm": {
+    "validateFields": "All fields must be validated to proceed",
+    "name": "Username",
+    "namePlaceHolder": "Username",
+    "email": "Email",
+    "emailPlaceHolder": "Email",
+    "NEmail": "not valid Email",
+    "password": "Password",
+    "passwordPlaceHolder": "Password",
+    "Epassword": "Password must:",
+    "NPassword": "not valid Password"
+  },
+  "Logout": {
+    "title": "Sign Out"
+  },
+  "nav": {
+    "tab1": "Categories",
+    "tab2": "About us",
+    "tab3": "Do us a flavor",
+    "tab4": "Farm of smiles",
+    "tab5": "Where to buy",
+    "tab6": "Control",
+    "tab7": "Products",
+    "tab8": "Recipes"
+  },
+  "lang": {
+    "first": "English",
+    "second": "العربية",
+    "hello": "Hi"
+  },
+  "sideLinks": {
+    "page1": "Category",
+    "page2": "Product",
+    "page3": "Recipy",
+    "page4": "Map",
+    "page5": "Admin",
+    "page6": "Flavor",
+    "page7": "Video",
+    "page8": "Media"
+  },
+  "Templang": {
+    "langButton": "Add in English ",
+    "opplangButton": "إضافة بالعربية"
+  },
+  "submitStatus": {
+    "submit": "Submit",
+    "waitSubmit": "Please wait ...",
+    "proccessing": "Proccessing",
+    "waitDelete": "Deleting ...",
+    "delete": "Delete"
+  },
+  "required": {
+    "categoryRequired": "please select a category",
+    "flavorRequired": "please select a flavor",
+    "image": "Please upload an image first",
+    "pinMark": "Please add at least one marker",
+    "mapRequired": "you should select a map",
+    "productRequired": "you should select the product",
+    "videoRequired": "you should select the video",
+    "recipeRequired": "you should select the recipe",
+    "coverImgRequired": "Please upload a cover image first",
+    "socialAppRequired": "please select an app first"
+  },
+  "updateCategoryForm": {
+    "title": "Update category"
+  },
+  "steps": {
+    "title": "Steps ",
+    "previous": "previous step",
+    "next": "next step"
+  },
+  "choose": {
+    "category": "please choose a category",
+    "flavor": "please choose a flavor",
+    "map": "please choose a map",
+    "product": "please choose a product",
+    "recipe": "please choose a recipe",
+    "video": "please choose a video",
+    "social": "Choose social app"
+  },
+  "imageUpload": {
+    "instruction": "click on the image to delete and reupload",
+    "warning": "if image is not here it is a network error . you can still click and delete it ",
+    "deleted": "image deleted",
+    "failed": "deletion failed",
+    "uploaded": "Image uploaded successfully you can continue ",
+    "validate": "image must be png ,has no background and max size of 4MB "
+  },
+  "done": {
+    "success": "Done successfully",
+    "error": "Error"
+  },
+  "delete": {
+    "deleteSuccess": "Deletion successful",
+    "deleteFailed": "Deletion failed",
+    "deleteCheck": "make sure to choose an item and check the delete warning",
+    "noPermission": "no permission to delete",
+    "noSelectionText": "Please select an item to delete"
+  },
+  "map": {
+    "title": "Market of Villadi",
+    "noItem": "No Maps added",
+    "location": "Market of",
+    "next": "next",
+    "prev": "prev"
+  },
+  "addCategoryForm": {
+    "title": "ِAdd category",
+    "name": "Category name",
+    "oppName": "اسم الصنف",
+    "namePlaceHolder": "puffs",
+    "code": "Category code",
+    "oppCode": "كود الصنف",
+    "codePlaceHolder": "425-A",
+    "detailes": "Detailes",
+    "oppDetailes": "التفاصيل",
+    "detailesPlaceHolder": "Add some detailes for this new category",
+    "img": "Category image",
+    "oppImg": "صورة الصنف",
+    "addimg": "Click to upload image",
+    "deleteAll": "delete all categories",
+    "deleteLabel": "Delete category",
+    "deleteWarning": "Are you sure you want to delete ? All related products and videos related to the products will be deleted with it ."
+  },
+  "updateFlavorForm": {
+    "title": "Update flavor"
+  },
+  "updateSocial": {
+    "title": "Update social links",
+    "channelLink": "Channel Link",
+    "embeddedLinkPlaceHolder": "Look at the instructions above",
+    "instagram": {
+      "title": "To get the instagram post id :",
+      "embededLink": "Post id",
+      "steps": [
+        "Open a post in a browser window",
+        "and copy the URL from the address bar.",
+        "The URL should be in the format: https://www.instagram.com/p/<span style=\"background:#7abc43; padding:4px; border-radius:5px\">abc123xyzAB</span>/",
+        "Copy its id . it will be like the highlighted text above"
+      ]
+    },
+    "facebook": {
+      "title": "To get the Facebook page name associated to the link: ",
+      "embededLink": "Page link",
+      "steps": [
+        "Get the page link it will be in this format :  www.facebook.com/<span style=\"background:#7abc43; padding:4px; border-radius:5px\">Villade11</span>?...",
+        "Copy its name . it will be like the highlighted text above "
+      ]
+    },
+    "youtube": {
+      "title": "To get the Youtube video link: ",
+      "embededLink": "Video id",
+      "steps": [
+        "Open a video in a browser window and copy the URL from the address bar. ",
+        "The URL should be in the format: https://www.youtube.com/watch?v=<span style=\"background:#7abc43; padding:4px; border-radius:5px\">K4xCjdwNKlA</span>/",
+        "Copy its id . it will be like the highlighted text above"
+      ]
+    }
+  },
+  "addFlavorForm": {
+    "title": "Add Flavor",
+    "name": "Flavor name",
+    "oppName": "اسم النكهة",
+    "namePlaceHolder": "chedder",
+    "img": "flavor image",
+    "oppImg": "صورة النكهة ",
+    "addimg": "Click to upload image",
+    "deleteAll": "delete all flavors",
+    "deleteLabel": "Delete flavor",
+    "deleteWarning": "Are you sure you want to delete ? All related products ,videos related to products, recipes and the votes on them will be deleted with it ."
+  },
+  "search": {
+    "title": "Search...",
+    "noOptions": "No option found"
+  },
+  "updateProductForm": {
+    "title": "Update Product"
+  },
+  "addProductForm": {
+    "title": "Add Product",
+    "category": "Choose product's category",
+    "oppCategory": "اختر الصنف الذي يتبع له المنتج",
+    "flavor": "Choose product's flavor",
+    "oppFlavor": "اختر نكهة المنتج",
+    "name": "Product name",
+    "oppName": "اسم المنتج",
+    "namePlaceHolder": "puff",
+    "img": "Product image",
+    "oppImg": "صورة المنتج ",
+    "img2": "Product's piece image",
+    "oppImg2": "صورة قطعة من المنتج ",
+    "code": "Product code",
+    "oppCode": "كود المنتج",
+    "codePlaceHolder": "425-A",
+    "detailes": "Detailes",
+    "oppDetailes": "التفاصيل",
+    "oppBackgroundColor": "لون الخلفية للمنتج",
+    "backgroundColor": "Product's background color",
+    "oppPatternColor": "لون نمط المنتج",
+    "patternColor": "Product's pattern color",
+    "detailesPlaceHolder": "Add some detailes for this new product",
+    "deleteAll": "delete all products",
+    "deleteLabel": "Delete product",
+    "deleteWarning": "Are you sure you want to delete ? All related videos will be deleted with it ."
+  },
+  "updateRecipyForm": {
+    "title": "Update Recipe"
+  },
+  "addRecipyForm": {
+    "title": "Add Recipy",
+    "oppFlavor": "اختر نكهة الوصفة",
+    "flavor": "Choose recipy's flavor",
+    "oppName": "اسم الوصفة",
+    "code": "Recipe code",
+    "oppCode": "كود الوصفة",
+    "codePlaceHolder": "425-A",
+    "name": "Recipy name",
+    "namePlaceHolder": "summer recipy",
+    "oppDetails": "التفاصيل",
+    "details": "Detailes",
+    "detailsPlaceHolder": "Add some detailes for this new recipy",
+    "deleteAll": "delete all recipes",
+    "deleteLabel": "Delete recipe",
+    "deleteWarning": "Are you sure you want to delete ? All votes on the recipe will be deleted with it ."
+  },
+  "addAdminForm": {
+    "title": "Grant Admin Role",
+    "helloAdmin": "Hello Admin ",
+    "chooseAdmin": "Choose a user",
+    "selectWarn": "Choose a user to complete",
+    "deleteLabel": "Remove the admin permission",
+    "deleteWarning": "Are you sure you want to remove this users from admins ?",
+    "deleteWarning2": " Note that the last remaining admin cant be removed",
+    "adminWarning": "Notice this is the english version the information you will enter will not translate automatically !!"
+  },
+  "updateMapForm": {
+    "title": "update Map"
+  },
+  "addMapForm": {
+    "title": "Add Location",
+    "name": "Country name",
+    "oppName": "اسم البلد",
+    "namePlaceHolder": "Syria,Aleppo",
+    "img": "Country image",
+    "oppImg": "صورة البلد ",
+    "detailes": "Detailes",
+    "oppDetailes": "التفاصيل",
+    "detailesPlaceHolder": "Add some detailes for this new Location",
+    "selectPosition": "click on the map to pin a location",
+    "changeImage": "Mark the check box if you want to change the image",
+    "deleteAll": "delete all maps",
+    "deleteLabel": "Delete map",
+    "deleteWarning": "Are you sure you want to delete ?"
+  },
+  "updateVideoForm": {
+    "title": "Update video"
+  },
+  "addVideoForm": {
+    "title": "Add Video",
+    "name": "Video title",
+    "oppName": "عنوان الفيديو",
+    "namePlaceHolder": "snack it , love it ,want it",
+    "embededLink": "Video embeded Link",
+    "oppEmbededLink": "رابط الفيديو المضمن ",
+    "embededLinkPlaceHolder": "https://www.youtube.com/watch?v",
+    "img": "cover video image",
+    "oppImg": "صورة غلاف الفيديو ",
+    "oppProduct": "اختر المنتج الموافق للفيديو ",
+    "product": "Choose video's product",
+    "deleteAll": "delete all videos",
+    "deleteLabel": "Delete video",
+    "deleteWarning": "Are you sure you want to delete ?"
+  },
+  "Bar": {
+    "one": "Best flavors 🔥",
+    "two": "snack it ,love it , want it",
+    "three": "Crunch into happiness ✨"
+  },
+  "videoWrapper": {
+    "name": "Videos",
+    "noVideos": "No more videos Added",
+    "more": "All videos",
+    "link": "product detailes",
+    "search": "Search video..."
+  },
+  "ProdsWrapper": {
+    "noProds": "No products yet !!",
+    "all": "All Products",
+    "view": "View All",
+    "moreProds": "More products",
+    "link": "Product details",
+    "notFound": "Product was not found",
+    "title": "products",
+    "search": "Search products...",
+    "details": "Product details",
+    "product": "product",
+    "flavor": "flavor"
+  },
+  "catigoriesWrapper": {
+    "noCats": "No Categories yet !!",
+    "title": "What we have",
+    "view": "View All",
+    "Cats": "All Categories ",
+    "more": "More categories",
+    "link": "Category's products",
+    "search": "Search category..."
+  },
+  "recipesWrapper": {
+    "noRecs": "No Recipes yet !!",
+    "link": "Recipe detailes",
+    "view": "View All",
+    "title": "All Recipes ",
+    "NotFound": "Recipe not found",
+    "trending": "Trending recipies",
+    "search": "Search recipe..."
+  },
+  "contactUs": {
+    "title": "Contact us",
+    "location": "Syria_Aleppo"
+  },
+  "addComment": {
+    "title": "Leave a comment ?",
+    "label": "Share your opinion with us",
+    "placeHolder": "Best product is ketchup potatos",
+    "back": "Back to Comment"
+  },
+  "updateComment": {
+    "title": "Update this comment ?"
+  },
+  "deleteComment": {
+    "doneSubmit": "comment deleted successfully ",
+    "error": "Deletion failed",
+    "checkWarn": "make sure to check the delete warning",
+    "check": "Are you sure you want to delete your comment",
+    "noComment": "No comment selected",
+    "title": "delete this comment ?"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "array": [
+      {
+        "id": 1,
+        "question": "Where can I buy Viladi products?",
+        "answer": "Viladi snacks are available at most supermarkets and retail stores across Syria, as well as in several Arab countries including Iraq, Lebanon, Jordan, Saudi Arabia, and Sudan.<br/>We are actively expanding our distribution and offer dedicated support for wholesalers and regional distributors."
+      },
+      {
+        "id": 2,
+        "question": "Are Viladi products healthy and safe?",
+        "answer": "Yes. At Viladi, we prioritize safety and quality by using premium ingredients and applying strict food safety standards at every stage of production.<br/>We use carefully selected vegetable oils and ensure fat and salt levels remain within healthy limits."
+      },
+      {
+        "id": 3,
+        "question": "Are your products Halal?",
+        "answer": "Absolutely. All Viladi products are made with 100% Halal-certified ingredients and undergo rigorous health and quality inspections."
+      },
+      {
+        "id": 4,
+        "question": "What’s the difference between your snack brands?",
+        "answer": "Each of our sub-brands offers a unique taste experience:<br/> <br/><span style=\"font-weight:600\">Viladi Puff </span>:  -Light, fun snacks for kids and adults with playful flavors.<br/> <br/><span style=\"font-weight:600\">Viladi Corn </span>: -Bold, crunchy roasted corn with savory seasonings.<br/> <br/><span style=\"font-weight:600\">Timali Corn </span> – Edgy, modern corn snacks with intense flavor profiles.<br/> <br/><span style=\"font-weight:600\">TikaPop </span>:  – Lightly flavored popcorn, perfect for movie nights and gatherings."
+      },
+      {
+        "id": 5,
+        "question": "Do you offer direct delivery to consumers?",
+        "answer": "Currently, we do not provide direct sales from our factory to individual consumers.<br/>However, we’re happy to guide you to the nearest authorized retailer or distributor. Just get in touch!"
+      },
+      {
+        "id": 6,
+        "question": "How can I become a distributor or business partner?",
+        "answer": "We welcome collaboration with local and international distributors and wholesalers.<br/>Please reach out via our Contact Us page or email:<br/>📧 sales@villadifoodindustries.com"
+      },
+      {
+        "id": 7,
+        "question": "What flavors are available in your products?",
+        "answer": "Our flavor range includes both sweet and savory favorites, such as:<br/>Ketchup, Cheddar Cheese, Pizza, Noodles, Barbecue<br/>Strawberry, Mixed Fruits, Vanilla, Chocolate<br/>Japanese Pepper, Sweet Corn, Parmesan, and more."
+      },
+      {
+        "id": 8,
+        "question": "Are your snacks suitable for children?",
+        "answer": "Yes! Many of our products — especially Viladi Puff and TikaPop — are kid-friendly, suitable for children above 3 years old.<br/>All flavors are designed to be enjoyable and safe. Parental supervision is always recommended for younger kids."
+      },
+      {
+        "id": 9,
+        "question": "Can I follow your updates on social media?",
+        "answer": "Definitely! We're highly active on social media — sharing our latest products, behind-the-scenes content, and special offers.<br/>📱 Instagram: @villadico<br/>📘 Facebook: Villadi Co."
+      },
+      {
+        "id": 10,
+        "question": " Can Viladi products be exported to other countries?",
+        "answer": "Yes. Our products are export-ready and meet the food safety and packaging standards required in Arab markets.<br/>We currently export to Iraq, Lebanon, Jordan, Saudi Arabia, and Sudan, and we are actively expanding into new regions."
+      },
+      {
+        "id": 11,
+        "question": "Do you hold quality certifications or export documents?",
+        "answer": "Yes. We comply with strict food manufacturing regulations and provide full documentation for export, including:<br/><br/>Certificate of Origin<br/><br/>Laboratory Analysis Reports (from certified labs)<br/><br/>Commercial Invoices & Technical Specifications<br/><br/>Compliance Certificates (upon request)"
+      },
+      {
+        "id": 12,
+        "question": "Can I customize packaging or flavors for my market?",
+        "answer": "Yes. We offer customization options for flavors, packaging, and labeling to suit the preferences of different markets or clients.<br/>This includes private packaging designs and multi-language labels.<br/>Note: Minimum order quantities apply for custom production."
+      },
+      {
+        "id": 13,
+        "question": "What partnership models do you offer?",
+        "answer": "We’re open to various forms of B2B collaboration, such as:<br/><br/>Exclusive regional distribution<br/><br/>Sales agency representation<br/><br/>Wholesale importing<br/><br/>Private Label production<br/><br/>Feel free to contact us to discuss opportunities:<br/>📧 sales@villadifoodindustries.com"
+      },
+      {
+        "id": 14,
+        "question": "What is the minimum order quantity (MOQ) for exports?",
+        "answer": "The MOQ depends on the destination and product type.<br/>Generally, orders start from one 20-ft container or equivalent volume.<br/>We provide customized quotations based on quantity and shipping destination."
+      },
+      {
+        "id": 15,
+        "question": "Can you assist with shipping or delivery to port?",
+        "answer": "Yes. We work with experienced local and international freight companies and can coordinate delivery under various incoterms:<br/><br/>Ex-Works (EXW) – Factory pickup<br/><br/>FOB – Latakia or Tartous port<br/><br/>CIF – Available upon request"
+      },
+      {
+        "id": 16,
+        "question": " How do I request a price quote?",
+        "answer": "Please send an email or use the contact form on our website with the following details:<br/><br/>Company Name<br/><br/>Country of Operation<br/><br/>Product Range of Interest<br/><br/>Estimated Quantities<br/><br/>📧 sales@villadifoodindustries.com<br/>📞 (Business WhatsApp will be provided soon)"
+      }
+    ]
+  },
+  "terms": {
+    "title": "📄 Terms and Conditions ",
+    "lastUpdated": {
+      "date": "2025-7-17",
+      "title": "Last update"
+    },
+    "sections": [
+      {
+        "title": "",
+        "content": "Please read these terms carefully before using this website or contacting us regarding our products and services.<br/>By accessing or using this website, you agree to be bound by the following terms:"
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "All content on this website is the intellectual property of Viladi Food Industries, including but not limited to:<br/> <br/>Text content<br/> <br/>Images<br/> <br/>Logos and trademarks<br/> <br/>Packaging designs and product visuals<br/> <br/>You may not reproduce, reuse, or distribute any of these materials without prior written consent from the company."
+      },
+      {
+        "title": "Product Information",
+        "content": "We make every effort to ensure the accuracy of information regarding our products, flavors, and nutritional content.<br/>However, Viladi reserves the right to modify or update product descriptions or specifications without prior notice."
+      },
+      {
+        "title": "Pricing and Availability",
+        "content": "All prices, specifications, and availability — for both local sales and exports — are subject to change at any time without notice.<br/>Product availability may vary depending on region or market conditions."
+      },
+      {
+        "title": "Copyright and Distribution Rights",
+        "content": "No Viladi product may be repackaged, distributed, or resold under a different name or brand without formal written agreement.<br/>Commercial use is restricted to authorized partnerships only."
+      },
+      {
+        "title": "Responsible Website Use",
+        "content": "You agree not to use this website for any unlawful purposes or to submit misleading, offensive, or fraudulent information.<br/>Viladi reserves the right to take legal action when necessary to protect its rights."
+      },
+      {
+        "title": "Privacy Policy",
+        "content": "We value your privacy. Any personal information collected through this website (e.g., email addresses, contact forms) will be used exclusively for direct communication or to inform you of relevant product offers.<br/>We do not share your personal data with any third parties."
+      },
+      {
+        "title": "Contact Us",
+        "content": "For questions related to these terms or business inquiries, please contact us at:<br/>📧 resources@villadifoodindustries.com<br/>📧 info@villadifoodindustries.com (for partners and export inquiries)<br/>📞 [Phone number to be added]"
+      },
+      {
+        "title": "Updates to These Terms",
+        "content": "Viladi Food Industries reserves the right to amend or update these terms at any time.<br/>We recommend reviewing this page periodically to stay informed."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "🔒 Privacy & Data Policy ",
+    "lastUpdated": {
+      "date": "2025-7-17",
+      "title": "Last update"
+    },
+    "sections": [
+      {
+        "title": "",
+        "content": "At Viladi Food Industries, we are committed to protecting your privacy and handling your personal data responsibly and transparently.<br/>By using our website or communicating with us through any digital channel, you agree to the terms outlined in this Privacy Policy:"
+      },
+      {
+        "title": "Information We Collect",
+        "content": "When you interact with us or use our website, we may collect the following data:<br/><br/>Full Name<br/><br/>Email Address<br/><br/>Phone Number<br/><br/>Country / City<br/><br/>Message content or inquiries<br/><br/>Browsing data (e.g., IP address, browser type)"
+      },
+      {
+        "title": "How We Use Your Information",
+        "content": "We use collected data for the following purposes:<br/><br/>To respond to inquiries and support requests<br/><br/>To send offers, product updates, and promotions (with your consent)<br/><br/>To enhance your browsing experience<br/><br/>To improve our services based on user interests<br/><br/>To communicate with distributors and business clients"
+      },
+      {
+        "title": "Data Protection",
+        "content": "We implement appropriate technical and organizational measures to protect your data from:<br/><br/>Unauthorized access<br/><br/>Unlawful modification or deletion <br/><br/>Data breaches or misuse"
+      },
+      {
+        "title": "Information Sharing",
+        "content": "We do not sell or rent your personal data to third parties.<br/>Some information may be shared with trusted service providers (e.g., hosting companies, analytics tools) under strict confidentiality agreements."
+      },
+      {
+        "title": "Cookies Policy",
+        "content": "We use cookies to enhance site functionality and monitor user behavior in a non-personalized manner.<br/>You can adjust your browser settings at any time to disable cookies."
+      },
+      {
+        "title": "Your Rights",
+        "content": "You have the right to:<br/><br/>Request a copy of your personal data<br/><br/>Request correction or deletion of your information<br/><br/>Unsubscribe from marketing communications<br/>To submit a request, contact us at: 📧 resources@villadifoodindustries.com or 📧 info@villadifoodindustries.com"
+      },
+      {
+        "title": "External Links",
+        "content": "Our website may contain links to third-party websites.<br/>Viladi is not responsible for the privacy practices of external sites. Please review their privacy policies independently."
+      },
+      {
+        "title": "Changes to This Policy",
+        "content": "We reserve the right to update or modify this privacy policy at any time.<br/>Any updates will be published on this page. Continued use of the website implies your acceptance of the updated policy."
+      },
+      {
+        "title": "📬 Contact Us",
+        "content": "If you have any questions about how we collect, use, or protect your data, please contact us:<br/><br/>📧 resources@villadifoodindustries.com<br/>📧 info@villadifoodindustries.com"
+      }
+    ]
+  },
+  "foodservice": {
+    "title": "🍽 Food Service Solutions",
+    "sections": [
+      {
+        "title": "",
+        "content": "Bulk snacks with quality that fits your business.br/>At Viladi Food Industries, we don't just serve end consumers — we offer tailored foodservice solutions for the hospitality, retail, and distribution sectors across Syria and the wider region.<br/><br/>Our services are designed for hotels, restaurants, cafes, cinemas, schools, corporate institutions, and wholesale distributors."
+      },
+      {
+        "title": "✅ What We Offer for the Food Service Sector",
+        "content": "🟢 Bulk packaging in customized weights and sizes (available upon request)<br/><br/>🟢 Wide range of flavors to suit every consumption environment — from classic to spicy<br/><br/>🟢 Private Label options for customized branding and packaging<br/><br/>🟢 High-quality products, locally manufactured with competitive pricing<br/><br/>🟢 Reliable logistics for both domestic and international markets"
+      },
+      {
+        "title": "🎯 Who We Serve",
+        "content": "Food supply and catering companies<br/><br/>Snack shops and mini-markets<br/><br/>Wholesale distributors<br/><br/>Hotels and resorts<br/><br/>Cafes and cinema concessions<br/><br/>Schools and summer camps<br/><br/>Export markets and trade partners"
+      },
+      {
+        "title": "💼 Have Your Own Brand? We’ll Make It for You!",
+        "content": "With our Private Label Manufacturing service, you can choose the product and flavor, and we’ll handle the rest — from production to packaging under your own brand.<br/>We also offer custom design and labeling based on your target market requirements."
+      },
+      {
+        "title": "🚚 Smooth & Scalable Logistics",
+        "content": "We support our partners with:<br/><br/>Local delivery across Syria<br/><br/>International shipping (FOB / CIF as required)<br/><br/>Complete export documentation: (Certificate of Origin , Lab Analysis Reports ,Commercial Invoices and Technical Sheets)<br/><br/>📩 Request a Quote Today <br/>For corporate partnerships and foodservice distribution inquiries:<br/>production@villadifoodindustries.com or AMMAR_MANSOUR@villadifoodindustries.com"
+      }
+    ]
+  },
+  "vote": {
+    "title": "votes",
+    "votedBefore": "You can only vote once ♡",
+    "voteError": "Somthing went wrong, vote failed",
+    "notSigned": "Please sign in first ♡"
+  },
+  "suggestAFlavor": {
+    "title": "Suggest a flavor ?",
+    "label": "write the message of you suggestion  ",
+    "placeHolder": "What about lemon with ketchup ?",
+    "doneSubmit": "Flavor suggested successfully",
+    "waitSubmit": "Please wait ...",
+    "submit": "Send"
+  },
+  "verifypasswordForm": {
+    "title": "Password reset code",
+    "code": "Enter the 4-digit verification code that was sent to your Email.",
+    "resend": "Resend code ?",
+    "click": "click here",
+    "verify": " Verified ♡"
+  },
+  "verifyEmailForm": {
+    "title": "Email Verification",
+    "body": "Enter the 4-digit verification code that was sent to your Email.",
+    "resend": "Resend code ?",
+    "click": "click here",
+    "signup": "Haven't signed up yet ?",
+    "sign": "Sign Up",
+    "verify": " Verified ♡"
+  },
+  "resendCodeForm": {
+    "email": "Resend verification code :",
+    "password": "Send password recovery code :"
+  },
+  "resetPasswordForm": { "title": "Reset password" },
+  "EmailTemplate": {
+    "title": "Email Verification",
+    "subtitle": "Villadi website",
+    "hello": "Hello",
+    "instructions": "Please use the following verification code to confirm your email address:",
+    "warning": "This code will expire in 1 hour.",
+    "ignore": "If you didn't request this code, please ignore this email"
+  },
+  "EmailFlavorTemplate": {
+    "title": "New Flavor Suggestion",
+    "subtitle": "From Villadi Website",
+    "team": "Hello Villadi Team,",
+    "message": "You've received a new flavor suggestion from",
+    "date": "This suggestion was submitted on"
+  },
+  "EmailTemplatePass": {
+    "title": "Password reset code",
+    "subtitle": "Villadi website",
+    "hello": "Hello,",
+    "instruction": " Please use the following code to set a new password:",
+    "expire": "This code will expire in 1 hour.",
+    "ignore": "If you didn't request this code, please ignore this email"
+  },
+  "aboutUs": {
+    "whoAreWe": {
+      "title": "Who are we",
+      "description": "Syrian Flavor from the Heart<br/><br/>Viladi Food Industries is a leading Syrian company in the snack and food manufacturing sector. Established in 1987 in Aleppo under the name Al-Widad, the company evolved into Viladi, becoming a trusted brand known for excellence, quality, and innovation in the world of snacks.<br/>For over three decades, Viladi has successfully blended authentic local identity with a modern vision, offering products that appeal to a wide range of tastes both in Syria and abroad."
+    },
+    "history": {
+      "title": "Our Story",
+      "description": "Viladi began its journey in 1987 in the historic city of Aleppo. Driven by passion and a commitment to quality, the company witnessed steady growth year after year.<br/>Today, our factory is located in Sheikh Najjar Industrial City – Aleppo, with an annual production capacity of around 2,000 tons, covering a wide variety of snacks, crunchy treats, and sweets.<br/>This growth reflects our ongoing commitment to expanding production and strengthening our presence across local and regional markets."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "At Viladi, we aim to become a regional benchmark in crafting high-quality snacks with bold and innovative flavors.<br/>We believe that building long-term relationships with our consumers starts with trust, and is earned through originality, flavor, and attention to detail."
+    },
+    "quality": {
+      "title": "Quality You Can Taste",
+      "description": "We use only premium ingredients — from natural corn kernels to healthy vegetable oils and certified flavorings.<br/>Our manufacturing process follows strict quality control standards at every stage of production and packaging, supported by modern technologies that ensure cleanliness, safety, and consistency in every bite."
+    },
+    "brandTitle": {
+      "title": "Our Brands"
+    },
+    "brand": {
+      "villadipuff": {
+        "title": " Viladi Puff",
+        "subtitle": "Ready-to-eat popcorn perfect for movie nights:",
+        "products": [
+          "Cheddar Cheese",
+          "Sweet Corn",
+          "Japanese",
+          "Ketchup",
+          "White cheese",
+          "Pizza"
+        ]
+      },
+
+      "villadicorn": {
+        "title": "Viladi Corn ",
+        "subtitle": "Roasted corn with a bold crunch and creative seasonings:",
+        "products": ["Sweet Corn", "Noodles", "Ketchup", "Chedder cheese"]
+      },
+      "temalicorn": {
+        "title": "Timali Corn",
+        "subtitle": " Trendy-style corn snacks:",
+        "products": [
+          "Melted Cheese",
+          "Parmesan",
+          "Noodles",
+          "Pizza",
+          "Barbecue",
+          "Sweet Corn"
+        ]
+      },
+      "tikapop": {
+        "title": "TikaPop",
+        "subtitle": "Light, fun snacks with flavors like:",
+        "products": ["Strawberry", "Mixed Fruits", "Chocolate", "Vanilla"]
+      }
+    },
+    "innovation": {
+      "title": "Flavor Innovation",
+      "description": "Our R&D team at Viladi is constantly creating new and exciting flavor experiences — from the classics like Cheddar and Ketchup to bold ideas like Noodles, Parmesan, or even Fruit flavors!<br/>This wide variety reflects our philosophy: Every mood deserves its own crunch."
+    },
+    "digital": {
+      "title": "Digital Presence & Community Engagement",
+      "description": "We know how important it is to stay close to our audience, especially the younger generation.<br/>That’s why we’re active on Instagram and Facebook — sharing new products, behind-the-scenes content, fun challenges, and youth-oriented campaigns like:",
+      "tags": ["#YourFlavorSpeaks", "#YourSnackYourMood", "#CrunchChallenge"]
+    },
+    "followUs": {
+      "title": "Follow us:",
+      "insta": "@villadico",
+      "face": "Villadi Co"
+    },
+    "export": {
+      "title": " Export & Regional Reach",
+      "description": "Viladi products are now enjoyed not only in Syria but also in countries like:",
+      "cities": ["Iraq", "Lebanon", "Jordan", "Saudi Arabia", "Sudan"],
+      "description2": "We're always exploring new markets to bring the Syrian taste to every Arab home."
+    },
+    "finish": {
+      "title": " In Conclusion",
+      "descritption": "At Viladi Food Industries, we’re more than a snack company — we’re part of people’s daily flavor experience.<br/>We grow with our audience, we listen to them, and we innovate for them.<br/><span style=\"background:#ffd166; margin:5px; padding:4px; border-radius:5px\">Because you deserve the best, we’ll keep crunching and creating... from Aleppo to the world.</span>"
+    }
+  },
+  "footer": {
+    "contactus": "Contact us",
+    "faq": "FAQ",
+    "terms": "Terms & conditions",
+    "privacy": "Privacy & Policy",
+    "food": "Food service"
+  },
+  "control": {
+    "add": "Add item",
+    "update": "Update item",
+    "delete": "Delete item"
+  }
+}
